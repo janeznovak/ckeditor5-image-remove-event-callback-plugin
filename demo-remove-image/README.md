@@ -20,5 +20,5 @@ npm run serve
 6. Now the image is visible.
 7. Click on the image and press delete.
 8. Check the developers console where it logged out: 
-
+![image](https://user-images.githubusercontent.com/26048707/150535119-8aeff1c7-d89f-4508-acdc-86820f6c6a7e.png).
 9. You can see that the name of the removed object, which is inlineImage.
