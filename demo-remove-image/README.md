@@ -23,4 +23,4 @@ npm run serve
 
 ![image](https://user-images.githubusercontent.com/26048707/150535119-8aeff1c7-d89f-4508-acdc-86820f6c6a7e.png).
 
-9. You can see that the name of the removed object, which is inlineImage.
+9. You can see that the name of the removed object, which is imageInline.
