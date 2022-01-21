@@ -40,6 +40,8 @@
                 // if image remove exists
                 if (change && change.type === 'remove' && (change.name === 'image' || change.name === 'imageInline')) {
                     hasNoImageRemoved = false
+                    console.log("found an image");
+                    console.log("And this is it", change);
                     break
                 }
             }

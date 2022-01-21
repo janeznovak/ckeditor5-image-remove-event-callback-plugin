@@ -8,6 +8,7 @@ export default class ImageRemoveEventCallbackPlugin extends Plugin {
     }
 
     init() {
+        console.log("i am in the removeimage plugin");
         const editor = this.editor
         const configuration = this.editor.config.get('imageRemoveEvent');
         const documentationURL = 'https://github.com/shibbirweb/ckeditor-5-image-remove-event-plugin'
