@@ -38,7 +38,7 @@
             for (let i = 0; i < changes.length; i++){
                 const change = changes[i]
                 // if image remove exists
-                if (change && change.type === 'remove' && (change.name === 'image' || change.name === 'imageInline')) {
+                if (change && change.type === 'remove' && (change.name === 'image' || change.name === 'imageInline' || change.name === 'imageBlock')) {
                     hasNoImageRemoved = false
                     break
                 }
@@ -50,7 +50,7 @@
             }
 
             // get removed nodes
-            const removedNodes = changes.filter(change => (change.type === 'insert' && (change.name === 'image' || change.name === 'imageInline')))
+            const removedNodes = changes.filter(change => (change.type === 'insert' && (change.name === 'image' || change.name === 'imageInline' || change.name === 'imageBlock')))
 
             // removed images src
             const removedImagesSrc = [];
